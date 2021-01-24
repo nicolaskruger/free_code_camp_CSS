@@ -1,0 +1,39 @@
+<style>
+    :root{
+        --pad: 20px;
+    }
+    .injected-text {
+      margin-bottom: -25px;
+      text-align: center;
+    }
+  
+    .box {
+      border-style: solid;
+      border-color: black;
+      border-width: 5px;
+      text-align: center;
+    }
+  
+    .yellow-box {
+      background-color: yellow;
+      padding: 10px;
+    }
+  
+    .red-box {
+      background-color: crimson;
+      color: #fff;
+      padding: var(--pad);
+    }
+  
+    .blue-box {
+      background-color: blue;
+      color: #fff;
+      padding: var(--pad);
+    }
+  </style>
+  <h5 class="injected-text">margin</h5>
+  
+  <div class="box yellow-box">
+    <h5 class="box red-box">padding</h5>
+    <h5 class="box blue-box">padding</h5>
+  </div>
